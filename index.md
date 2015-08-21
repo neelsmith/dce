@@ -12,8 +12,12 @@ Prerequisites:
 
 Functionality:
 
+
 - simple 2-way diff'ing, identifying
     - tokens in  text A, but not text B
     - tokens in text B, but not text A
     - longest common sequence of tokens in A and B
 - n-way diff'ing with reference to any single text in the corpus
+- hierarchical diffing  ("vertical" and "horizontal" diff'ing):
+    - vertical diff'ing on citable node URNs
+    - within each node, horizontal diff'ing on tokens
