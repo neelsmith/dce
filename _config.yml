@@ -1,0 +1,28 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Digital critical editions
+tagline:          'Simple command line tools and code libraries'
+description:      'A JVM library and command-line scripts for assembling and working with a digital critical apparatus'
+
+baseurl: "/dce"
+
+
+
+
+links:
+  - title: My home page on github
+    url: http://neelsmith.github.io/
+    external: true
+  - title: My HC home page
+    url: http://shot.holycross.edu/~nsmith/
+    external: true
+  - title: Github source repository
+    url: https://github.com/neelsmith/dce
+    external: true
+   
