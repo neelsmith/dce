@@ -3,7 +3,7 @@ title: Digital critical editions
 layout: page
 ---
 
-Simple tools.
+Simple tools for critical comparison of citable digital texts.  The project includes a compiled code library you can use from any JVM language, and command-line scripts in [groovy](http://www.groovy-lang.org/).
 
 ## Background ##
 
