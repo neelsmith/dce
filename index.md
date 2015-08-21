@@ -5,6 +5,10 @@ layout: page
 
 Simple tools.
 
+## Background ##
+
+What is a [digital critical edition](whatis)?
+
 ## Prerequisites
 
 - two or more citable digital diplomatic editions of a text
@@ -21,3 +25,9 @@ Simple tools.
 - hierarchical diffing  ("vertical" and "horizontal" diff'ing), that is:
     - vertical diff'ing on citable node URNs
     - within each node, horizontal diff'ing on tokens
+
+## Documentation ##
+
+- Worked examples
+- Library specification
+- API docs
