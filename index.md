@@ -5,19 +5,19 @@ layout: page
 
 Simple tools.
 
-Prerequisites:  
+## Prerequisites
 
 - two or more citable digital diplomatic editions of a text
 - tools for analyzing the diplomatic editions as normalized tokens
 
-Functionality:
+## Functionality
 
 
-- simple 2-way diff'ing, identifying
+- simple 2-way diff'ing, identifying:
     - tokens in  text A, but not text B
     - tokens in text B, but not text A
     - longest common sequence of tokens in A and B
 - n-way diff'ing with reference to any single text in the corpus
-- hierarchical diffing  ("vertical" and "horizontal" diff'ing):
+- hierarchical diffing  ("vertical" and "horizontal" diff'ing), that is:
     - vertical diff'ing on citable node URNs
     - within each node, horizontal diff'ing on tokens
