@@ -2,15 +2,13 @@
 Compare sets of strings in two files, one string per line.
 Normalize content before comparison so we can safely compare unicode
 text content.
- */
+*/
+
 import java.text.Normalizer
 import java.text.Normalizer.Form
 
-
-String usg = "groovy cfTokenSets.groovy -[oabs] TOKENS_A_FILE TOKENS_B_FILE"
-
+String usg = "groovy cfTokenSets.groovy -[hoabs] TOKENS_A_FILE TOKENS_B_FILE"
 CliBuilder cli = new CliBuilder(usage: usg)
-
 cli.with {
   h longOpt: 'help', 'Show usage information'
   o longOpt: 'overlap', 'Print to stdout tokens in both A and B'
@@ -20,7 +18,6 @@ cli.with {
   
 }
 def options = cli.parse(args)
-
 
 if ((!options) || (options.h)) {
   cli.usage()
