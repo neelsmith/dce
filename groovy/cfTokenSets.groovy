@@ -48,13 +48,6 @@ def overlap = setA.intersect(setB)
 def bOnly = setB - overlap
 def aOnly = setA - overlap
 
-if (options.s) {
-  System.err.println "Comparing ${setA.size()} tokens in set A to ${setB.size()} tokens in set B."
-  System.err.println "${overlap.size()} tokens appear in both A and B"
-  System.err.println "${aOnly.size()} tokens appear only in set A"
-  System.err.println "${bOnly.size()} tokens appear only in set B"
-}
-
 if (options.o) {
   overlap.each {
     println it
@@ -70,3 +63,10 @@ if (options.b) {
     println it
   }
 }
+if (options.s) {
+  System.err.println "Comparing ${setA.size()} tokens in set A to ${setB.size()} tokens in set B."
+  System.err.println "${overlap.size()} tokens appear in both A and B"
+  System.err.println "${aOnly.size()} tokens appear only in set A"
+  System.err.println "${bOnly.size()} tokens appear only in set B"
+}
+
